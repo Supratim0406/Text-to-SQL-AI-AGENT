@@ -50,7 +50,7 @@ Now convert this question to SQL:
 
 # Streamlit App
 st.set_page_config(page_title="I can Retrieve Any SQL query")
-st.header("🚀 AI TEXT to SQL Assitant for your DB")
+st.header("🚀 AI TEXT to SQL Assistant for your DB")
 
 question=st.text_input("Enter your query here: ",key="input")
 submit=st.button("Ask the question")
